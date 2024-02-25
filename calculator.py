@@ -8,7 +8,7 @@ if mode >= 5:
 if mode <= 4:
     if mode <= 0:
         print("Sorry, that mode is not available. Please try again")
-    if mode <= 1:
+    if mode >= 1:
         first = float(input("  " ))
         if mode == 1:
             second = float(input("+ " ))
